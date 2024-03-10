@@ -1,0 +1,61 @@
+@startmindmap
+<style>
+mindmapDiagram {
+  node {
+    BackGroundColor DeepSkyBlue/white
+
+  }
+  rootNode {
+    FontStyle Italic
+    FontSize 18
+    FontColor white
+	BackGroundColor Brown-yellow
+  }
+  leafNode {
+	  BackGroundColor WhiteSmoke
+
+  }
+}
+</style>
+
+title Cloud Storage
+
++ GCP Cloud Storage
+++ Standard
++++ Good for hot data
++++ High frequency access
++++ Storage costliest
++++ Access cost is very low
+
+++ Nearline
++++ Low frequency access - once in 30 days
++++ Storage cheaper than standard
++++ Access cost more than standard
++++ Used for backup
+
+-- Coldline
+--- Very low frequency access - once in 90 days
+--- Storage cheaper than Nearline
+
+-- Archive
+--- Offline data - accessed once in a year
+--- Backup
+--- Storage is cheapest
+--- Access cost is very high
+--- No SLA
+
+
+
+
+
+
+legend right
+  1. Unique bucket name
+  2. Cloud Storage --> Buckets -> Folders -> Objects
+  3. No minimum object size
+  4. Max object size is 5 TB
+
+endlegend
+
+
+@endmindmap

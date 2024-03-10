@@ -1,0 +1,68 @@
+@startmindmap
+<style>
+mindmapDiagram {
+  node {
+    BackGroundColor DeepSkyBlue/white
+
+  }
+  rootNode {
+    FontStyle Italic
+    FontSize 18
+    FontColor white
+	BackGroundColor Brown-yellow
+  }
+  leafNode {
+	  BackGroundColor WhiteSmoke
+
+  }
+}
+</style>
+
+title GCP Basic Services
+
++ GCP Basic Services
+++ IAM
++++ WHO can do WHAT on WHICH resources
++++ WHO - Identity
+++++ Google Account
+++++ Google Groups
+++++ Could Idenity Account
+++++ Google Workspace Account
+++++ Service Account
++++ WHAT - Action --> Create, Update, Delete
++++ WHICH - Resources --> Compute Engine, App Engine, Cloud Storage
++++ Roles - Collection of Permissions
+++++ Primitive
++++++ Owner
++++++ Editor
++++++ Viewer
+++++ Pre-defined
++++++ Comute Admin
++++++ Storage Admin
++++++ etc.
+++++ Custom
++++++ Combined collection of permissions
+
++++ Built-in Roles
++++ Custom Role
++++ Service Account
+
+
+
+
+
+
+
+
+
+legend right
+  1. One project can be associated with multiple regions at 1 time.
+  2. Zones within a region are physically interconnected with low-latency links
+  3. By default, there are 3 zones per region
+  4. Free tier duration is 90 days, max storage is 5 GB
+  5. Zones are used to distribute resources within a region for fault tolerance
+
+endlegend
+
+
+@endmindmap

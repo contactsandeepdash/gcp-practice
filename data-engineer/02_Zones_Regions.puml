@@ -1,0 +1,69 @@
+@startmindmap
+<style>
+mindmapDiagram {
+  node {
+    BackGroundColor DeepSkyBlue/white
+
+  }
+  rootNode {
+    FontStyle Italic
+    FontSize 18
+    FontColor white
+	BackGroundColor Brown-yellow
+  }
+  leafNode {
+	  BackGroundColor WhiteSmoke
+
+  }
+}
+</style>
+
+title Zones & Regions
+
++ Zones & Regions
+++ Zone Hierarchy
++++ Zones (data center))
++++ Regions (geographical area)
++++ Multi-region
++++ Global
++++ Global -> Multi-region -> Region -> Zones
+
+++ Storage & Database
++++ Cloud Storage
++++ Filestore
++++ Cloud SQL
++++ Spanner
++++ Big Query
++++ Bigtable
+
+++ Data Processing
++++ Dataproc
++++ Data Flow
+
+-- ML / AI
+--- Vertex AI
+--- Prebuilt API
+---- Speech to text
+---- Text to speech
+---- Vision AI
+--- Custom Model
+--- Auto ML
+
+-- Secondary Services
+--- Compute Engine
+--- Kubernetes Engin
+--- Cloud Run
+--- Identity & Access Management
+
+
+legend right
+  1. One project can be associated with multiple regions at 1 time.
+  2. Zones within a region are physically interconnected with low-latency links
+  3. By default, there are 3 zones per region
+  4. Free tier duration is 90 days, max storage is 5 GB
+  5. Zones are used to distribute resources within a region for fault tolerance
+
+endlegend
+
+
+@endmindmap

@@ -1,0 +1,126 @@
+@startmindmap
+<style>
+mindmapDiagram {
+  node {
+    BackGroundColor DeepSkyBlue/white
+
+  }
+  rootNode {
+    FontStyle Italic
+    FontSize 18
+    FontColor white
+	BackGroundColor Brown-yellow
+  }
+  leafNode {
+	  BackGroundColor WhiteSmoke
+
+  }
+}
+</style>
+
+title Data Engineering Overview
+
++ Data Engineering Overview
+++ Ingestion
++++ Components
+++++ App Engine
+++++ Compute Engine
+++++ Google Kubernetes Engine
+++++ Cloud Functions
+++++ Cloud Run
+++++ Pub/SUb
+++++ Logging
+++++ Storage Transfer Service
+++++ Big Query Transfer Service
+++++ Transfer Appliance
+
++++ Process
+++++ Batch
++++++ Cloud Storage
++++++ Storage Transfer Service
++++++ Big Query Transfer Service
++++++ Transfer Appliance
+++++ Streaming
++++++ Pub/Sub
+++++ Applications
++++++ Logging
++++++ Pub/Sub
++++++ Cloud SQL
++++++ Datastore
++++++ Cloud Bigtable
++++++ Cloud Firestore
++++++ Cloud Spanner
+
+++ Storage
++++ Components
+++++ Cloud Storage
+++++ Cloud SQL
+++++ Datastore
+++++ Cloud BigTable
+++++ BigQuery
+++++ Cloud Storage for Firebase
+++++ Cloud Firestore
+++++ Cloud Spanner
+
++++ Type of Data
+++++ Structured
++++++ Transactional
+++++++ Cloud SQL
+++++++ Cloud Spanner
++++++ Analytical
+++++++ BigQuery
+++++ Semi-structured
++++++ Fully Indexed
+++++++ Cloud Datastore
+++++++ CLoud Firestore
++++++ Row Key
+++++++ Cloud Bigtable
+++++ Unstructured
++++++ Cloud Storage
+++++ Block Storage
++++++ Persistent Disk
++++++ Local SSD
+++++ In-memory DB
++++++ Memory Store
+++++++ Redis
+++++++ Memcache
+
+-- Process & Analyze
+--- Components
+---- Dataprep
+---- Dataflow
+---- Dataproc
+---- Cloud composer
+---- BigQuery
+---- AI Platform
+---- Cloud Vision API
+---- Cloud Speech API
+---- Translate API
+---- Natural Language API
+---- Data Fusion
+---- Cloud DLP
+
+--- Types
+---- Cloud Dataproc
+----- Exising Hadoop / Spark applications
+----- Machine learning / Data science ecosystem
+----- Tunable Cluster Parameters (Spark ML / Auto ML / Custom model)
+---- Cloud Dataflow
+----- New Data Processing Pipeliens
+----- Unified Streaming & Batch
+----- Fully managed, No-Ops
+---- Cloud Dataprep
+----- UI Driven Data preparation
+----- Scales on demand
+----- Fully managed, No-Ops
+
+-- Explore & Visualize
+--- Components
+---- Looker
+---- Datalab
+---- Data Studio
+---- Bigquery BI Engine
+---- Sheets
+---- Data Catalog
+
+@endmindmap
